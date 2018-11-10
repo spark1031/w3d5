@@ -25,7 +25,7 @@ end
 
 
 # class Player < AttrAccessorObject
-#   my_attr_accessor :name, :cards
+#   my_attr_accessor (:name, :cards)
 #
 #   def initialize(name, cards)
 #     @name = name
@@ -41,6 +41,6 @@ end
 #     @name = value
 #   end
 # end
-
+#
 # player = Player.new('Sue', [adlfjdkjfs])
 # player.cards`
